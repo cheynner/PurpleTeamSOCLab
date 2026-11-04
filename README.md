@@ -12,3 +12,10 @@ DC01      domain controller (Windows)    LAN (Office)        10.0.10.10         
 WIN01     workstation (Windows 11)       LAN (Office)        DHCP                          agent (1514)
 WAZUH     SIEM (Ubuntu Server)           LAN (Office)        10.0.10.20
 KALI      attacker                       OPT1                10.0.99.50
+
+TASKS ACCOMPLISHED
+SIEM setup and deployment
+Log pipeline setup
+Wrote log decoder and detection rules for Wazuh because it couldn't natively interpret pfSense logs
+Deployed Wazuh agents on Windows hosts
+Attack simulations: ran nmap scan on domain controller server and brute force attack on Wazuh server.
