@@ -21,5 +21,5 @@ SKILLS
 - Log pipeline setup
 - Wrote log decoder and detection rules for Wazuh because it couldn't natively interpret pfSense logs
 - Deployed Wazuh agents on Windows hosts
-- Attack simulations: ran nmap scan on domain controller server and brute force attack on Wazuh server
+- Attack simulations: brute force attack on Wazuh server
 
