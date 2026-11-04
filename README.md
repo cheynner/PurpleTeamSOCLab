@@ -14,8 +14,8 @@ ARCHITECTURE
 | KALI   | Attacker                    | OPT1            | 10.0.99.50                  |                   |
 
 TASKS ACCOMPLISHED\
-SIEM setup and deployment
-Log pipeline setup
-Wrote log decoder and detection rules for Wazuh because it couldn't natively interpret pfSense logs
-Deployed Wazuh agents on Windows hosts
-Attack simulations: ran nmap scan on domain controller server and brute force attack on Wazuh server.
+SIEM setup and deployment\
+Log pipeline setup\
+Wrote log decoder and detection rules for Wazuh because it couldn't natively interpret pfSense logs\
+Deployed Wazuh agents on Windows hosts\
+Attack simulations: ran nmap scan on domain controller server and brute force attack on Wazuh server\
