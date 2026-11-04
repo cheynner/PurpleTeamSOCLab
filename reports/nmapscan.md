@@ -1,20 +1,21 @@
 # Incident Report: Internal Port Scan
 
-**Date:** 2026-11-03
+**Date:** 2026-11-01
 **Analyst:** Cheynne
-**Severity:** Low
+**Severity:** Medium
 
 ## Summary
-A host from the with the IP (10.0.99.50) performed a full TCP port
-scan against the domain controller (10.0.10.10).
+A host from the with the IP 10.0.99.50 performed a brute force attack
 
 ## Timeline
 | Time | Event |
 |------|-------|
-| 20:01:12 | Burst of 6 blocked connections |
+| 20:01:11 | Burst of 16 blocked connections alerts |
+| 20:01:50 | Final alert
 
 ## Evidence
-![pfSense firewall log](../images/nmap-firewall-log.png)
+![pfSense firewall log](../images/nmapscanlogs.png)
+![pfSense firewall log](../images/nmapscanlog.png)
 
 ## MITRE ATT&CK
 - T1046 — Network Service Discovery
