@@ -15,7 +15,9 @@ ARCHITECTURE
 
 SKILLS
 - SIEM setup and deployment
-- firewall deployment
+- Firewall deployment
+- Isolated network creation
+- Windows domain deployment
 - Log pipeline setup
 - Wrote log decoder and detection rules for Wazuh because it couldn't natively interpret pfSense logs
 - Deployed Wazuh agents on Windows hosts
