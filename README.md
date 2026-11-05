@@ -1,7 +1,7 @@
 # PurpleTeamSOCLab
 A VirtualBox lab simulation of an attack (Kali Linux) on an isolated network, with detection using a SIEM (Wazuh) and firewall (pfSense).
 
-## OVERVIEW\
+## OVERVIEW
 This lab simulates an office network monitored by a SIEM, an attempted an SSH brute force attack on the SIEM server, the building of the log pipeline, and the collection of the logs.
 
 ## ARCHITECTURE
