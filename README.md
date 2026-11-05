@@ -13,6 +13,8 @@ This lab simulates an office network monitored by a SIEM, an attempted an SSH br
 | WAZUH  | SIEM (Ubuntu Server)        | LAN (Office)    | 10.0.10.20                  |                   |
 | KALI   | Attacker                    | OPT1            | 10.0.99.50                  |                   |
 
+![Network Topology Diagram](NetworkTopology.drawio.png)
+
 ## SKILLS
 - SIEM setup and deployment
 - Firewall deployment
