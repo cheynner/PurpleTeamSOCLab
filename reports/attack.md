@@ -14,15 +14,15 @@ A host operating from the untrusted network segment 10.0.99.0/24 with the IP 10.
 | 20:42:38 | Final alert, 16 alerts within 6 seconds |
 
 ## Evidence
-![pfSense firewall logs](../images/bruteforcelogs.png)
-![pfSense firewall log](../images/bruteforcelog.png)
+![pfSense firewall logs](../Images/BruteForceLogs.png)
+![pfSense firewall log](../Images/BruteForceLog.png)
 
 ## MITRE ATT&CK
 - T1110 — Brute Force
 The attacker used Hydra to attempt to login to the account "buddy" using a password list of 11 passwords on the Wazuh SIEM server.
 
 ## Evidence
-![Kali](../images/bruteforce.png)
+![Kali](../Images/BruteForce.png)
 
 ## Response / Recommendation
 Add account lockout after a certain threshold of failed login attempts.
