@@ -30,3 +30,19 @@ Wazuh had to native decoder for the pfSense logs it was receiving, so it wasn't 
  - [Decoder](DetectionFiles/local_decoder.xml)
  - [Rules](DetectionFiles/local_rules.xml)
 
+##REPOSITORY CONTENTS
+PurpleTeamSOCLab/
+├── README.md                      # Project overview
+├── DetectionFiles/
+│   ├── local_decoder.xml          # pfSense decoder 
+│   └── local_rules.xml            # detection rules
+├── Images/
+│   ├── NetworkTopology.drawio.png # Network topology diagram
+│   ├── ActiveDirectory.png        # DC01 AD services
+│   ├── FirewallRulesOPT1.png      # pfSense OPT1 firewall rules
+│   ├── BruteForce.png             # Hydra SSH attack from Kali
+│   ├── BruteForceLog.png          # Wazuh brute-force alert (detail)
+│   └── BruteForceLogs.png         # Wazuh brute-force alerts (list)
+└── Reports/
+    └── BruteForceAttack.md        # SSH brute-force incident report
+
