@@ -14,8 +14,8 @@ A host operating from the untrusted network segment 10.0.99.0/24 with the IP 10.
 | 20:42:38 | Final alert, 16 alerts within 6 seconds |
 
 ## Evidence
-![pfSense firewall logs](../Images/BruteForceLogs.png)
-![pfSense firewall log](../Images/BruteForceLog.png)
+![Brute Force Logs](../Images/BruteForceLogs.png)
+![Brute Force Log](../Images/BruteForceLog.png)
 
 ## MITRE ATT&CK
 - T1110 — Brute Force
