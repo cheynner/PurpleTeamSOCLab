@@ -26,7 +26,7 @@ This lab simulates an office network monitored by a SIEM, an attempted an SSH br
 - Attack simulations: brute force attack on Wazuh server
 
 ## DETECTION FILES
-Wazuh had to native decoder for the pfSense logs it was receiving, so it wasn't putting the logs into the SIEM dashboard. I wrote in the decoder and rules for Wazuh to interpret the pfSense logs.
-[Decoder](DetectionFiles/local_decoder.xml)
+Wazuh had to native decoder for the pfSense logs it was receiving, so it wasn't putting the logs into the SIEM dashboard. I wrote in the decoder and rules for Wazuh to interpret the pfSense logs here:\
+[Decoder](DetectionFiles/local_decoder.xml)\
 [Rules](DetectionFiles/local_rules.xml)
 
