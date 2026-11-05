@@ -1,11 +1,11 @@
-# Incident Report: Internal Port Scan
+# Incident Report: Brute force attack
 
 **Date:** 2026-11-01
 **Analyst:** Cheynne
 **Severity:** Medium
 
 ## Summary
-A host from the with the IP 10.0.99.50 performed a brute force attack
+A host operating from the untrusted network segment 10.0.99.0/24 with the IP 10.0.99.50, performed a brute force attack against the user "buddy", which is the Wazuh SIEM server located on the office network segment 10.0.10.0/24. No successful logins were detected from this IP. The account was not compromised, there were no successful logins recorded.
 
 ## Timeline
 | Time | Event |
@@ -21,4 +21,4 @@ A host from the with the IP 10.0.99.50 performed a brute force attack
 - T1046 — Network Service Discovery
 
 ## Response / Recommendation
-Contact user "buddy" to see if they attempted these logins. Check to see any if any successful logins occurred for this user, and if any alerts were created after a successful login.
+
