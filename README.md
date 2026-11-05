@@ -25,3 +25,5 @@ This lab simulates an office network monitored by a SIEM, an attempted an SSH br
 - Deployed Wazuh agents on Windows hosts
 - Attack simulations: brute force attack on Wazuh server
 
+  ## DETECTION FILES
+
