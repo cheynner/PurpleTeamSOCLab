@@ -1,7 +1,7 @@
 # Incident Report: Brute force attack
 
-**Date:** 2026-11-01
-**Analyst:** Cheynne
+**Date:** 2026-11-01\
+**Analyst:** Cheynne\
 **Severity:** Medium
 
 ## Summary
